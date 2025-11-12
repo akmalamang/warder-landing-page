@@ -387,9 +387,9 @@ const LandingPage = () => {
 
         {/* Gambar Produk */}
         <div className="flex flex-row justify-center sm:absolute sm:left-[390px] md:left-[420px] lg:left-[500px] xl:left-[590px] top-[100px] z-10">
-          <img src="/makanan/ayam-goreng.png" alt="" className="w-[150px] sm:w-[200px] md:w-[250px] lg:w-[398px] xl:w-[498px] h-[121px] sm:h-[200px] md:h-[142px] lg:h-[301px] xl:h-[332px]" />
+          <img src="/makanan.png" alt="" className="w-[150px] sm:w-[200px] md:w-[250px] lg:w-[398px] xl:w-[498px] h-[121px] sm:h-[200px] md:h-[142px] lg:h-[301px] xl:h-[332px]" />
           <img
-            src="/minuman/es-teh.png"
+            src="/es-teh.png"
             alt=""
             className="w-[100px] sm:w-[150px] md:w-[180px] lg:w-[242px] h-[100px] sm:h-[150px] md:h-[180px] lg:h-[242px] sm:absolute left-60 sm:left-[150px] md:left-[200px] lg:left-[299px] xl:left-[370px] sm:-ml-5 -ml-[50px]"
           />
