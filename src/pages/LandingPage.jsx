@@ -10,6 +10,7 @@ import instagramIcon from '/public/social-media/instagram-icon.png';
 import facebookIcon from '/public/social-media/facebook-icon.png';
 import youtubeIcon from '/public/social-media/youtube-icon.png';
 import tiktokIcon from '/public/social-media/tiktok-icon.png';
+import lineRise from '/public/line-rise.png';
 
 const Gelombang = ({ isScrolled }) => {
   return (
@@ -458,12 +459,12 @@ const LandingPage = () => {
           <h1 className="text-[30px] text-center sm:text-start sm:text-[50px] md:text-[60px] lg:text-[90px] text-slate-900 font-bold">Warder</h1>
         </div>
         <div className="garisTengah flex justify-center items-center gap-2 order-3 sm:order-2">
-          <img src={chef} alt="" className="hidden sm:inline-block" />
+          <img src={lineRise} alt="" className="hidden sm:inline-block" />
           <img src={rightArrow} alt="" className="w-[45px] h-10 cursor-pointer transition hover:translate-y-[-5px]" />
           <p className="font-medium text-[12px] sm:text-[18px]">Click here</p>
         </div>
         <div className="gambar-koki order-1 sm:order-3 ">
-          <img src="/public/chef.png" alt="" className="w-[220px] sm:w-[350px] mx-auto " />
+          <img src={chef} alt="" className="w-[220px] sm:w-[350px] mx-auto " />
         </div>
       </div>
 
