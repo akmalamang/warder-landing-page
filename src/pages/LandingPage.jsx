@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ayamGoreng from '/public/makanan/ayam-goreng.png';
 import esTeh from '/public/minuman/es-teh.png';
-import chef from '/public/chef.png';
-import rightArrow from '/public/arrow-right1.png';
-import matcha from '/public/minuman/matcha.png';
-import logo from '/public/warteg-der-logo.png';
-import instagramIcon from '/public/social-media/instagram-icon.png';
-import facebookIcon from '/public/social-media/facebook-icon.png';
-import youtubeIcon from '/public/social-media/youtube-icon.png';
-import tiktokIcon from '/public/social-media/tiktok-icon.png';
-import lineRise from '/public/line-rise.png';
+import chef from './public/chef.png';
+import rightArrow from './public/arrow-right1.png';
+import matcha from './public/minuman/matcha.png';
+import logo from './public/warteg-der-logo.png';
+import instagramIcon from './public/social-media/instagram-icon.png';
+import facebookIcon from './public/social-media/facebook-icon.png';
+import youtubeIcon from './public/social-media/youtube-icon.png';
+import tiktokIcon from './public/social-media/tiktok-icon.png';
+import lineRise from './public/line-rise.png';
 
 const Gelombang = ({ isScrolled }) => {
   return (
