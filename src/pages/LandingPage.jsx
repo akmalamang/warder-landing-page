@@ -2,6 +2,14 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ayamGoreng from '/public/makanan/ayam-goreng.png';
 import esTeh from '/public/minuman/es-teh.png';
+import chef from '/public/chef.png';
+import rightArrow from '/public/arrow-right1.png';
+import matcha from '/public/minuman/matcha.png';
+import logo from '/public/warteg-der-logo.png';
+import instagramIcon from '/public/social-media/instagram-icon.png';
+import facebookIcon from '/public/social-media/facebook-icon.png';
+import youtubeIcon from '/public/social-media/youtube-icon.png';
+import tiktokIcon from '/public/social-media/tiktok-icon.png';
 
 const Gelombang = ({ isScrolled }) => {
   return (
@@ -450,8 +458,8 @@ const LandingPage = () => {
           <h1 className="text-[30px] text-center sm:text-start sm:text-[50px] md:text-[60px] lg:text-[90px] text-slate-900 font-bold">Warder</h1>
         </div>
         <div className="garisTengah flex justify-center items-center gap-2 order-3 sm:order-2">
-          <img src="/public/Line-ris.png" alt="" className="hidden sm:inline-block" />
-          <img src="/public/arrow-right 1.png" alt="" className="w-[45px] h-10 cursor-pointer transition hover:translate-y-[-5px]" />
+          <img src={chef} alt="" className="hidden sm:inline-block" />
+          <img src={rightArrow} alt="" className="w-[45px] h-10 cursor-pointer transition hover:translate-y-[-5px]" />
           <p className="font-medium text-[12px] sm:text-[18px]">Click here</p>
         </div>
         <div className="gambar-koki order-1 sm:order-3 ">
@@ -505,7 +513,7 @@ const LandingPage = () => {
             // fallback original static content while no data
             <>
               <div className="w-[180px] sm:w-[220px]">
-                <img src="/public/makanan/ayam-goreng.png" alt="Ayam Goreng" className="w-full h-auto" />
+                <img src={ayamGoreng} alt="Ayam Goreng" className="w-full h-auto" />
               </div>
 
               <div className="absolute top-1 sm:top-2 left-1/2 -translate-x-1/2 flex ">
@@ -523,7 +531,7 @@ const LandingPage = () => {
               </div>
 
               <div className="w-[120px] sm:w-[150px]">
-                <img src="/public/minuman/matcha.png" alt="Es Hijau" className="w-full h-auto" />
+                <img src={matcha} alt="Es Hijau" className="w-full h-auto" />
               </div>
             </>
           )}
@@ -535,17 +543,17 @@ const LandingPage = () => {
       <div className="footer bg-[#FADA7A] lg:grid lg:grid-cols-2 pb-8" id="service">
         <div className="page-1 ml-4">
           <div className="flex items-center gap-2 mb-2 ml-2 sm:justify-center-safe lg:justify-stretch">
-            <img src="/public/warteg-der-logo.png" alt="logo-warder" className="w-[70px]" />
+            <img src={logo} alt="logo-warder" className="w-[70px]" />
             <h1 className="text-lg sm:font-semibold">Warung der</h1>
           </div>
           <div className="ml-2 mb-2 ">
             <p className="text-[14px] p-2 sm:w-[300px] sm:mx-auto sm:text-center lg:mx-0 lg:text-start">Warung Der, di mana setiap suapan punya cerita — rasa yang jujur, hangat, dan selalu ingin kamu datangi lagi.</p>
           </div>
           <div className="social-media flex items-center gap-2 ml-4 sm:justify-center-safe mt-4 lg:justify-start">
-            <img src="/public/social-media/Instagram.png" alt="instagram" className="w-[30px]" />
-            <img src="/public/social-media/TikTok.png" alt="tiktok" className="w-[30px]" />
-            <img src="/public/social-media/facebook.png" alt="Facebook" className="w-[25px]" />
-            <img src="/public/social-media/youtube.png" alt="Youtube" className="w-[30px]" />
+            <img src={instagramIcon} alt="instagram" className="w-[30px]" />
+            <img src={tiktokIcon} alt="tiktok" className="w-[30px]" />
+            <img src={facebookIcon} alt="Facebook" className="w-[25px]" />
+            <img src={youtubeIcon} alt="Youtube" className="w-[30px]" />
           </div>
         </div>
 
