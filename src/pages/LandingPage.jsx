@@ -6,11 +6,11 @@ import chef from '/chef.png';
 import rightArrow from '/arrow-right1.png';
 import matcha from '/minuman/matcha.png';
 import logo from '/warteg-der-logo.png';
-import instagramIcon from '/social-media/instagram-icon.png';
-import facebookIcon from '/social-media/facebook-icon.png';
-import youtubeIcon from '/social-media/youtube-icon.png';
-import tiktokIcon from '/social-media/tiktok-icon.png';
-import lineRise from '/line-rise.png';
+import instagram from '/public/social-media/instagram.png';
+import facebook from '/public/social-media/facebook.png';
+import youtube from '/public/social-media/youtube.png';
+import tiktok from '/public/social-media/tiktok.png';
+import lineRise from '/public/line-ris.png';
 
 const Gelombang = ({ isScrolled }) => {
   return (
@@ -551,10 +551,10 @@ const LandingPage = () => {
             <p className="text-[14px] p-2 sm:w-[300px] sm:mx-auto sm:text-center lg:mx-0 lg:text-start">Warung Der, di mana setiap suapan punya cerita — rasa yang jujur, hangat, dan selalu ingin kamu datangi lagi.</p>
           </div>
           <div className="social-media flex items-center gap-2 ml-4 sm:justify-center-safe mt-4 lg:justify-start">
-            <img src={instagramIcon} alt="instagram" className="w-[30px]" />
-            <img src={tiktokIcon} alt="tiktok" className="w-[30px]" />
-            <img src={facebookIcon} alt="Facebook" className="w-[25px]" />
-            <img src={youtubeIcon} alt="Youtube" className="w-[30px]" />
+            <img src={instagram} alt="instagram" className="w-[30px]" />
+            <img src={tiktok} alt="tiktok" className="w-[30px]" />
+            <img src={facebook} alt="Facebook" className="w-[25px]" />
+            <img src={youtube} alt="Youtube" className="w-[30px]" />
           </div>
         </div>
 
