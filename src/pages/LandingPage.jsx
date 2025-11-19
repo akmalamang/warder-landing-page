@@ -6,11 +6,12 @@ import chef from '/chef.png';
 import rightArrow from '/arrow-right1.png';
 import matcha from '/minuman/matcha.png';
 import logo from '/warteg-der-logo.png';
-import instagram from '/public/social-media/instagram.png';
-import facebook from '/public/social-media/facebook.png';
-import youtube from '/public/social-media/youtube.png';
-import tiktok from '/public/social-media/tiktok.png';
-import lineRise from '/public/line-ris.png';
+import instagram from '/social-media/Instagram.png';
+import facebook from '/social-media/facebook.png';
+import youtube from '/social-media/youtube.png';
+import tiktok from '/social-media/TikTok.png';
+import lineRise from '/Line-ris.png';
+import star from '/star-warteg.png';
 
 const Gelombang = ({ isScrolled }) => {
   return (
@@ -255,7 +256,7 @@ const CardProduk = ({ produk, onClick }) => {
       {/* Bintang Rating */}
       <div className="flex gap-0.5 mb-2">
         {[...Array(5)].map((_, i) => (
-          <img key={i} src="/star-warteg.png" alt="star" className="w-2.5 h-2.5 sm:w-4 sm:h-4" />
+          <img key={i} src={star} alt="star" className="w-2.5 h-2.5 sm:w-4 sm:h-4" />
         ))}
       </div>
 
