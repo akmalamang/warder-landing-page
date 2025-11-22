@@ -11,7 +11,7 @@ import facebook from '/social-media/facebook.png';
 import youtube from '/social-media/youtube.png';
 import tiktok from '/social-media/TikTok.png';
 import lineRise from '/Line-ris.png';
-import star from '/public/star-warteg.png';
+import star from '/star-warteg.png';
 
 const Gelombang = ({ isScrolled }) => {
   return (
